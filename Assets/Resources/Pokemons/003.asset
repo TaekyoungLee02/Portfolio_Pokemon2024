@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53335c0fc26ddf4bb7559e86f19f4ba, type: 3}
+  m_Name: 003
+  m_EditorClassIdentifier: 
+  number: 3
+  pokemonName: "\uBD88\uC2AC\uB77C\uC784"
+  description: "\uBD88\uC744 \uB2E4\uB8E8\uB294 \uC2AC\uB77C\uC784"
+  pokemonBody: {fileID: 1931298151966786, guid: 7d6f80e0815565d45ad91a9b9db22c3d, type: 3}
+  base_HP: 100
+  base_ATK: 55
+  base_DEF: 105
+  base_SPD: 45
+  types: 020000000b000000
+  levelSkills:
+  - level: 0
+    skillNum: 1
+  - level: 0
+    skillNum: 6
+  - level: 5
+    skillNum: 2
+  - level: 10
+    skillNum: 14
+  - level: 12
+    skillNum: 13
+  - level: 13
+    skillNum: 11

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f9538fc437dc749bcf7d06868b9215, type: 3}
+  m_Name: 006
+  m_EditorClassIdentifier: 
+  trainerName: Trainer
+  defeatComment: "Trainer : \uC798 \uD588\uAD70... \uB124\uAC00 \uC774\uACBC\uB2E4!"
+  enemyNum: 6
+  encounterComment:
+  - "\uB0B4\uAC00 \uB9C8\uC9C0\uB9C9 \uD2B8\uB808\uC774\uB108\uC57C."
+  - "\uC9C0\uAE08\uAE4C\uC9C0 \uC5B4\uB5BB\uAC8C \uD5E4\uCCD0\uC654\uB294\uC9C0"
+  - "\uADF8 \uC2E4\uB825\uC744 \uBCF4\uB3C4\uB85D \uD560\uAE4C!"
+  trainerPokemonInfos:
+  - pokemonNum: 2
+    level: 14
+  - pokemonNum: 4
+    level: 15
+  - pokemonNum: 3
+    level: 16
+  - pokemonNum: 1
+    level: 20
+  trainerBagInfos: []
+  TrainerGameObject: {fileID: 1694388104871626409, guid: 62ea8ff6437c122459021eb68d7aa1fe, type: 3}

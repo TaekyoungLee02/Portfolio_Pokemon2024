@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92db32da8699646458cd1b6809a60ef1, type: 3}
+  m_Name: 007
+  m_EditorClassIdentifier: 
+  category: 0
+  type: 7
+  skillName: "\uBC14\uC704\uAE68\uAE30"
+  skillText: "\uBC14\uC704\uB97C \uAE68\uB294 \uD380\uCE58\uB85C \uACF5\uACA9\uD55C\uB2E4.
+    \uC0C1\uB300\uBC29\uC758 \uBC29\uC5B4\uB97C \uB5A8\uC5B4\uB728\uB9B4 \uC218\uB3C4
+    \uC788\uB2E4."
+  skillEffects:
+  - skillEffect: 1
+    effectTarget: 1
+    invokingTiming: 1
+    effect_Value: -1
+    effect_Rate: 60
+  number: 7
+  power: 50
+  rate: 100
+  maxPP: 25
+  curPP: 25
+  priority: 0
+  contact: 1
+  playerAnim: {fileID: 3330509912828739085, guid: 00da03ff84be6b643a300da5cdeb282d, type: 3}
+  enemyAnim: {fileID: 5872038880118971709, guid: aebbf1775a196594ea79ebd5cf14867b, type: 3}

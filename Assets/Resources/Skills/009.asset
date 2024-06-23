@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92db32da8699646458cd1b6809a60ef1, type: 3}
+  m_Name: 009
+  m_EditorClassIdentifier: 
+  category: 1
+  type: 1
+  skillName: "\uBD84\uBC1C"
+  skillText: "\uBD84\uBC1C\uD574\uC11C \uACF5\uACA9\uACFC \uBC29\uC5B4\uB97C \uD06C\uAC8C
+    \uC62C\uB9B0\uB2E4."
+  skillEffects:
+  - skillEffect: 0
+    effectTarget: 0
+    invokingTiming: 1
+    effect_Value: 2
+    effect_Rate: 100
+  - skillEffect: 1
+    effectTarget: 0
+    invokingTiming: 1
+    effect_Value: 2
+    effect_Rate: 100
+  number: 9
+  power: 0
+  rate: 100
+  maxPP: 15
+  curPP: 15
+  priority: 0
+  contact: 0
+  playerAnim: {fileID: 6601791554106431798, guid: aa2ae086808482e47b9773fa2bc334b8, type: 3}
+  enemyAnim: {fileID: 984458953856637336, guid: b903934781219934e921ff263553160e, type: 3}

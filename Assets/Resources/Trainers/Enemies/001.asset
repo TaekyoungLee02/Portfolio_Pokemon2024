@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f9538fc437dc749bcf7d06868b9215, type: 3}
+  m_Name: 001
+  m_EditorClassIdentifier: 
+  trainerName: Trainer
+  defeatComment: "Trainer : \uCD08\uC9DC\uD55C\uD14C \uC9C0\uB2E4\uB2C8..."
+  enemyNum: 1
+  encounterComment:
+  - "\uAC70\uAE30 \uCD08\uC9DC\uAC19\uC774 \uBCF4\uC774\uB294 \uB108!"
+  - "\uB098\uB791 \uD55C \uD310 \uB728\uC790\uACE0!"
+  trainerPokemonInfos:
+  - pokemonNum: 2
+    level: 8
+  - pokemonNum: 3
+    level: 10
+  trainerBagInfos: []
+  TrainerGameObject: {fileID: 1694388104871626409, guid: 62ea8ff6437c122459021eb68d7aa1fe, type: 3}
